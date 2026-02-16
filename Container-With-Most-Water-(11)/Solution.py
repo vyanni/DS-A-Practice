@@ -10,6 +10,7 @@ class Solution(object):
         rightPointer = len(height) - 1
         maxArea = 0
 
+        #Calculate area, consistently move in pointers depending on their height
         while leftPointer < rightPointer:
             boxWidth = rightPointer - leftPointer
             boxHeight = min(height[rightPointer], height[leftPointer])
