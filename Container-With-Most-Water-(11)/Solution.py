@@ -24,3 +24,5 @@ class Solution(object):
         
         return maxArea
 
+#Runtime 127ms { O(n) -> Worst case scenario, you have to check each and every element}
+#Space: 20.75mb { O(1) - > Worst case scenario uses the same amount of memory each time (The 2 pointers, max and current area)}
