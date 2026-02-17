@@ -15,5 +15,5 @@ class Solution(object):
         
         return strs[0]
 
-#Runtime: 5ms
-#Memory Space: 12.46mb
+#Runtime: 5ms { O(n * m) -> Worst case scenario, check each letter of each word}
+#Memory Space: 12.46mb { O(1) -> Worst case scenario, uses the same amount of memory for both for loops}
